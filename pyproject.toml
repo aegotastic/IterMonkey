@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "itermonkey"
-version = "2025.11.01"
+version = "2025.11.02"
 authors = [
   { name = "aegotastic", email = "pseudopersonal839@gmail.com" },
 ]
@@ -23,8 +23,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/aegotastic/IterTools"
-Repository = "https://github.com/aegotastic/IterTools"
+Homepage = "https://github.com/aegotastic/IterMonkey"
+Repository = "https://github.com/aegotastic/IterMonkey"
 
 [tool.setuptools.packages.find]
-include = ["listtools*"]
+include = ["itermonkey*"]
